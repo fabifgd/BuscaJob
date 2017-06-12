@@ -1,11 +1,240 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+  /*background-color: #BEC9D1;*/
+}
 #barraprincipal{
   background-color: #7ac2f0;
   height: 50px;
   border-bottom: 1px solid black;
+  margin-bottom: 2%;
+  color: black;
+}
+#desplegable{
+   height:0;
+   overflow:hidden;
+}
+#inputbusqueda{
+  width: 100%;
+}
+/*#bs-example-navbar-collapse-1{
+  /*background-color: red;*/
+  /*z-index: 9999;*/
+#busqueda{
+  background-color: #7aa8f0;
+  height: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+  margin-top:2%;
+  border: 1px solid black;
+  z-index: 1;
+}
+#crearoferta{
+  width: 100%;
+}
+#ofertasrecientes{
+  text-align: center;
+  width: 100%;
+}
+#ofertasrecientes1{
+  /*background-color: green;*/
+  margin-right: 0%;
+}
+#cajaborraroferta.col-md-12{
+  border: 2px solid black;
+}
+#cajaoferta{
+  min-height: 535px;
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+}
+#cajaofertasempleo{
+  width: 100%;
+}
+#cajaofertaempleo{
+  border: 1px solid black;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  background-color: white;
+}
+#ofertacompleta{
+  padding-left: 2%;
+  /*border: 1px solid black;*/
+}
+#cajaofertacompleta{
+  border: 1px solid black;
+  background-color: white;
+}
+#id_usuario{
+  font-size: 3em;
+}
+#descripcion{
+  font-size: 2em;
+  padding-top: 2%;
+}
+#experiencia_minima, #estudios_requeridos, #industria_oferta, #categoria_oferta, #nivel_oferta, #numero_vacantes, #lugar_trabajo, #salario, #email, #telefono{
+  font-size: 1.5em;
+}
+#contacto{
+  font-size: 2em;
+  padding-top: 2%;
+}
+ #duracion_contrato{
+   font-size: 1.5em;
+   padding-top: 2%;
+ }
+#busquedaleft{
+  padding: 2%;
+  border: 1px solid black;
+  margin-left: 2%;
+  margin-top: 1%;
+  /*background: red;*/
+}
+#ofertas{
+  margin-top: 1%;
+}
+#ofertasempleo{
+  margin-top: 1%;
+  /*border: 1px solid black;*/
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#ofertasempleo{
+  /*border: 1px solid black;*/
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#empresa{
+  margin-top: 1%;
+}
+#empresa1, #empresa2, #empresa3{
+  /*margin-top: 1%;*/
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#empresa4, #empresa5, #empresa6{
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+#Descripcion{
+  size:801px;;
+  height: 200px;
 }
 #nombre{
   font-size: 2em;
   text-align: center;
   float: left;
   padding-left: 2%;
+}
+#botonbusqueda{
+  margin-top: 25px;
+}
+#registro{
+  width: 100%;
+}
+#login{
+  width: 100%;
+}
+#curriculum.curriculum{
+  padding-left: 2%
+}
+#curriculum.row{
+  width: 100%;
+  margin-top:5%;
+}
+#textocabecera{
+  font-size: 2.5em;
+  padding-bottom: 1%;
+}
+#footerregistro{
+  position: absolute;
+  width: 100%;
+  margin-top: 20%;
+  padding:5px 0px;
+  clear: both;
+  background: #286af0;
+  text-align: center;
+  color: #fff;
+}
+#footerlogin{
+  position: absolute;
+  width: 100%;
+  margin-top: 40%;
+  padding:5px 0px;
+  clear: both;
+  background: #286af0;
+  text-align: center;
+  color: #fff;
+}
+#footer{
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+#footercrearoferta{
+  position: absolute;
+  width: 100%;
+  margin-top: 20%;
+  padding:5px 0px;
+  clear: both;
+  background: #286af0;
+  text-align: center;
+  color: #fff;
+}
+#footerofertas{
+  position: absolute;
+  width: 100%;
+  margin-top: 35%;
+  padding:5px 0px;
+  clear: both;
+  background: #286af0;
+  text-align: center;
+  color: #fff;
+}
+#footerbusqueda{
+  position: absolute;
+  width: 100%;
+  margin-top: 41%;
+  padding:5px 0px;
+  clear: both;
+  background: #286af0;
+  text-align: center;
+  color: #fff;
+}
+#footerindex{
+  position: absolute;
+  width: 100%;
+  margin-top: 30%;
+  padding:5px 0px;
+  clear: both;
+  background: #286af0;
+  text-align: center;
+  color: #fff;
+}
+#container{
+  width: 100%;
+  min-height: 100px;
+}
+#del{
+  margin-top: 2%;
+}
+#ofertasborrar{
+  margin-top: 2%$;
 }
